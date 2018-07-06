@@ -4,6 +4,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicChat", "BasicChat\BasicChat.csproj", "{7F52BB8A-B70E-4D10-995D-866ED1EC6CF1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{16792087-5B89-4D78-A615-0F3A083C8ABB} = {16792087-5B89-4D78-A615-0F3A083C8ABB}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBRepository", "DBRepository\DBRepository.csproj", "{16792087-5B89-4D78-A615-0F3A083C8ABB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{D6CD864B-5583-465B-AAAB-397F06ECFD50}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +22,14 @@ Global
 		{7F52BB8A-B70E-4D10-995D-866ED1EC6CF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F52BB8A-B70E-4D10-995D-866ED1EC6CF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F52BB8A-B70E-4D10-995D-866ED1EC6CF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16792087-5B89-4D78-A615-0F3A083C8ABB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16792087-5B89-4D78-A615-0F3A083C8ABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16792087-5B89-4D78-A615-0F3A083C8ABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16792087-5B89-4D78-A615-0F3A083C8ABB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6CD864B-5583-465B-AAAB-397F06ECFD50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6CD864B-5583-465B-AAAB-397F06ECFD50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6CD864B-5583-465B-AAAB-397F06ECFD50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6CD864B-5583-465B-AAAB-397F06ECFD50}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

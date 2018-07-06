@@ -1,0 +1,15 @@
+﻿using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace DBRepository
+{
+    class RepositoryContext : DbContext
+    {
+        public RepositoryContext(DbContextOptions<RepositoryContext> options) : base(options)
+        {
+
+        }
+    }
+}
